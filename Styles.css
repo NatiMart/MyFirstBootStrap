@@ -2,3 +2,36 @@ body{
     background-color: darkgrey;
 
 }
+.btn-outline-dark{
+    color: darkmagenta;
+    background-color: darkorange;
+}
+.btn-outline-dark:hover{
+color:greenyellow;
+}
+.container{
+    background-color: indianred;
+}
+.row{
+    border: 5px solid blue;
+}
+.allcol{
+    border: 5px solid peru;
+}
+.navbar-nav{
+    background-color: purple;
+}
+.imageCard{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+@media(max-width:767px){
+    .imageCard{
+        width: 400px;
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
